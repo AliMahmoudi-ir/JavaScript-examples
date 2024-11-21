@@ -36,6 +36,14 @@ body {
     height: 50px;
     width: 20px;
     border: none;
+    transition: width .5s ease;
+    border-radius: 15px;
+
+}
+
+.search.active .input{
+    width: 300px;
+    border-radius: 15px;
 }
 
 .search .btn {
@@ -48,4 +56,6 @@ body {
     width: 50px;
     height: 50px;
     cursor: pointer;
+    border-radius: 15px;
+
 }
